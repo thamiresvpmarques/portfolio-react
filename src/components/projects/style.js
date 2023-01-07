@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   height: 900px;
-  font-family:${({theme}) => theme.fontFamily};
-  color: ${({theme}) => theme.darkColor};
-  
-  h2{
+  font-family: ${({ theme }) => theme.fontFamily};
+  color: ${({ theme }) => theme.darkColor};
+
+  h2 {
     margin-bottom: 30px;
-    text-align:center;
+    text-align: center;
   }
   a {
     text-decoration: none;
@@ -16,13 +16,15 @@ export const Section = styled.section`
 `;
 
 export const StyledCarousel = styled(Carousel)`
- 
-  .carousel .control-dots{
-  display:none;
+  .carousel .control-dots {
+    display: none;
   }
-  img{
-    max-width:350px;
+  img {
+    max-width: 350px;
   }
+`;
+export const DataProjects = styled.div`
+h2{
+  
+}
 `
-
-

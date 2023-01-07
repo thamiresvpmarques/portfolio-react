@@ -13,7 +13,7 @@ export const Projects = () => {
             alt="Nome do projeto"
           />
           <h3>Projeto 1</h3>
-          <div class="informacoes-projeto">
+          <div>
             <p>Projeto feito usando HTML, CSS e JavaScript</p>
             <p>🔗 Ver no GitHub Pages</p>
           </div>
@@ -25,7 +25,7 @@ export const Projects = () => {
             alt="Nome do projeto"
           />
           <h3>Projeto 1</h3>
-          <div class="informacoes-projeto">
+          <div>
             <p>Projeto feito usando HTML, CSS e JavaScript</p>
             <p>🔗 Ver no GitHub Pages</p>
           </div>
@@ -37,7 +37,7 @@ export const Projects = () => {
             alt="Nome do projeto"
           />
           <h3>Projeto 1</h3>
-          <div class="informacoes-projeto">
+          <div>
             <p>Projeto feito usando HTML, CSS e JavaScript</p>
             <p>🔗 Ver no GitHub Pages</p>
           </div>

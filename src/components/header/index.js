@@ -15,27 +15,27 @@ export const Header = () => {
         </a>
         <Styled.Menu>
           <li>
-            <Styled.NavMenu href='#Home'>
+            <Styled.NavMenu href='Home'>
               <AiOutlineHome /> Home
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="#about">
+            <Styled.NavMenu href="About">
               <RiContactsLine /> Sobre
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="#habilidades">
+            <Styled.NavMenu href="Abilities">
               <CgLoadbarDoc /> Habilidades
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="#contato">
+            <Styled.NavMenu href="Projects">
               <BsImages /> Projetos
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="#contato">
+            <Styled.NavMenu href="Contact">
               <BiMessageAltDetail /> Contato
             </Styled.NavMenu>
           </li>

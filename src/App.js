@@ -6,6 +6,7 @@ import { Abilities } from "./components/skills";
 import { Projects } from "./components/projects";
 import { ThemeProvider } from "styled-components";
 import { Theme } from "./styles/theme";
+import { Contact } from "./components/contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Abilities/>
       <Projects/>
+      <Contact/>
       </ThemeProvider>
     </>
   );
