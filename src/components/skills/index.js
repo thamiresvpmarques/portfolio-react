@@ -2,7 +2,7 @@ import * as Styled from "./style";
 
 export const Abilities = () => {
   return (
-    <Styled.Section>
+    <Styled.Section id="abilities">
       <Styled.Title>Habilidades</Styled.Title>
 
       <Styled.Container>

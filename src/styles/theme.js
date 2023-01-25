@@ -1,4 +1,4 @@
-export const Theme = {
+export const theme = {
   fontFamily: "Poppins",
   standardColor: "#fff",
   brightColour: "#8b8b8b",

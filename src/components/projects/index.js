@@ -1,45 +1,57 @@
-import * as Styled from './style'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Pokedex from "../../images/pokedex.png";
+import LandingPage from "../../images/landing-page.png";
+import GitHubApi from "../../images/githubApi.png";
+import Spartacus from "../../images/spartacus.png";
 
+import * as Styled from "./style";
 
 export const Projects = () => {
   return (
-    <Styled.Section>
+    <Styled.Section id="projects">
       <h2>Projetos</h2>
       <Styled.StyledCarousel>
-        <a href="https://github.com">
-          <img
-            src="https://via.placeholder.com/515X700"
-            alt="Nome do projeto"
-          />
-          <h3>Projeto 1</h3>
+        <a
+          target={"_blank"}
+          href="https://github.com/thamiresvpmarques/pokemon-cards-react"
+        >
+          <img src={Pokedex} alt="Pokédex" />
+          <h3>Pokédex</h3>
           <div>
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
+            <p>
+              Projeto feito em React, Context Api, Styled-components e
+              React-router-dom
+            </p>
           </div>
         </a>
 
-        <a href="https://github.com">
-          <img
-            src="https://via.placeholder.com/515X700"
-            alt="Nome do projeto"
-          />
-          <h3>Projeto 1</h3>
+        <a
+          target={"_blank"}
+          href="https://github.com/thamiresvpmarques/spartacus-upgrade"
+        >
+          <img src={Spartacus} alt="Spartacus" />
+          <h3>Spartacus</h3>
           <div>
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
+            <p>Projeto feito em React, Styled-components e React-router-dom</p>
           </div>
         </a>
 
-        <a href="https://github.com">
-          <img
-            src="https://via.placeholder.com/515X700"
-            alt="Nome do projeto"
-          />
-          <h3>Projeto 1</h3>
+        <a
+          target={"_blank"}
+          href="https://github.com/thamiresvpmarques/landing-page-com-grid"
+        >
+          <img src={LandingPage} alt="Landing Page" />
+          <h3>Landing Page</h3>
           <div>
             <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+
+        <a target={"_blank"} href="https://github.com">
+          <img src={GitHubApi} alt="GitHub API" />
+          <h3>Search User - GitHub</h3>
+          <div>
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
           </div>
         </a>
       </Styled.StyledCarousel>

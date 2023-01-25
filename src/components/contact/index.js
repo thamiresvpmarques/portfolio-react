@@ -1,11 +1,12 @@
-import * as Styled from "./style";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 
+import * as Styled from "./style";
+
 export const Contact = () => {
   return (
-    <Styled.Footer>
+    <Styled.Footer id="contact">
       <Styled.ContactContainer>
         <h2>Me envie uma mensagem!</h2>
         <Styled.LinksSocial>

@@ -6,13 +6,19 @@ export const Main = styled.main`
   align-items: center;
   height: 800px;
   gap: 150px;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    gap: 0px;
+    height: 1000px;
+  }
 `;
 export const Img = styled.img`
   width:250px;
-  height:60ppx;
-  cursor:pointer;
+
+ cursor:pointer;
   animation: profile-animate 8s ease-in-out infinite 0.75s;
-}
+
 @keyframes profile-animate{
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -28,14 +34,17 @@ export const Img = styled.img`
 }
   
 `;
-export const data = styled.div`
+export const Informations = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
   font-family: ${({ theme }) => theme.fontFamily};
   font-weight: 100;
-
+  
+  @media (max-width: 900px) {
+    align-items: center;
+  }
   h2 {
     color: ${({ theme }) => theme.darkColor};
     margin: 0px;
@@ -45,4 +54,27 @@ export const data = styled.div`
     font-size: 25px;
     color: ${({ theme }) => theme.mediumColor};
   }
+  @media (max-width: 900px) {
+    h2{
+      font-size: 30px;
+    }
+    h3{
+      font-size: 25px;
+      text-align: center;
+    }
+  }
 `;
+export const Contact = styled.div`
+   margin-top: 15px;
+   font-size: 25px;
+
+   svg {
+     color: ${({theme}) => theme.darkColor};
+     margin-right: 8px;
+     transition: 0.75s;
+   }
+
+   svg:hover{
+    color: ${({theme}) => theme.brightColour};
+   }
+`

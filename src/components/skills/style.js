@@ -10,6 +10,10 @@ export const Section = styled.section`
   height: 700px;
   font-family: ${({ theme }) => theme.fontFamily};
   color: ${({ theme }) => theme.darkColor};
+
+  @media (max-width: 900px) {
+    height: 900px;
+  }
 `;
 export const Container = styled.div`
   display: flex;
@@ -19,6 +23,11 @@ export const Container = styled.div`
   width: 550px;
   gap: 60px;
   flex-wrap: wrap;
+
+  @media (max-width: 900px) {
+    width: 80%;
+    margin-bottom: 80px;
+  }
 `;
 export const Skill = styled.div`
   display: flex;

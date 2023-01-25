@@ -1,46 +1,68 @@
-import * as Styled from './style'
-import { AiOutlineHome } from "react-icons/ai";
-import { RiContactsLine } from "react-icons/ri";
-import { CgLoadbarDoc } from "react-icons/cg";
-import { BiMessageAltDetail } from "react-icons/bi";
-import { BsImages } from "react-icons/bs";
+import { useEffect, useState } from "react";
+import { useWindowSize } from "../../hooks/useWindowSize";
 import imageThamires from '../../images/thamires-marques.png'
 
+import * as Styled from './style'
+
 export const Header = () => {
+
+  const { width } = useWindowSize();
+
+  const [menu, setMenu] = useState(false);
+
+  useEffect(() => {
+    if (width >= 425) {
+      setMenu(false);
+      return;
+    }
+  }, [width]);
   return (
     <Styled.Header>
-      <Styled.Nav>
         <a href="index.html">
           <Styled.Logo src={imageThamires} alt="logo"></Styled.Logo>
         </a>
+        <nav>
+        <input
+          type="checkbox"
+          name="menu-hamburguer"
+          id="menu-hamburguer"
+          checked={menu}
+          onChange={() => setMenu((prev) => !prev)}
+        />
+
+        <label for="menu-hamburguer">
+          <div className="menu">
+            <span className="hamburguer"></span>
+          </div>
+        </label>
         <Styled.Menu>
           <li>
-            <Styled.NavMenu href='Home'>
-              <AiOutlineHome /> Home
+            <Styled.NavMenu href='#home'>
+               Home
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="About">
-              <RiContactsLine /> Sobre
+            <Styled.NavMenu href="#about">
+               Sobre
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="Abilities">
-              <CgLoadbarDoc /> Habilidades
+            <Styled.NavMenu href="#abilities">
+               Habilidades
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="Projects">
-              <BsImages /> Projetos
+            <Styled.NavMenu href="#projects">
+               Projetos
             </Styled.NavMenu>
           </li>
           <li>
-            <Styled.NavMenu href="Contact">
-              <BiMessageAltDetail /> Contato
+            <Styled.NavMenu href="#contact">
+               Contato
             </Styled.NavMenu>
           </li>
         </Styled.Menu>
-      </Styled.Nav>
+      </nav>
     </Styled.Header>
   );
 };
