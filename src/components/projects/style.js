@@ -24,12 +24,24 @@ export const StyledCarousel = styled(Carousel)`
   .carousel .control-dots {
     display: none;
   }
+  .carousel .thumbs-wrapper {
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
   img {
     max-width: 450px;
+  }
+  @media (max-width: 900px){
+    img{
+      max-width: 300px;
+    }
   }
   p {
     color: ${({ theme }) => theme.mediumColor};
   }
+  
   h3 {
     margin-top: 10px;
     color: ${({ theme }) => theme.darkColor};
