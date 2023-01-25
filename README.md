@@ -1,7 +1,7 @@
 # Portfólio - React
 *Onde me apresento e demonstro minhas habilidades.*
 
-![](src/images/port.png)
+![](src/images/port.gif)
 
 🛠️
 - javaScript/React - Para a aplicação ser Single Page Application (SPA).
