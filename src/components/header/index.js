@@ -30,7 +30,7 @@ export const Header = () => {
           onChange={() => setMenu((prev) => !prev)}
         />
 
-        <label for="menu-hamburguer">
+        <label htmlFor="menu-hamburguer">
           <div className="menu">
             <span className="hamburguer"></span>
           </div>
