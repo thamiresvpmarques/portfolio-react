@@ -13,7 +13,7 @@ export const ContactContainer = styled.div`
   text-align: center;
   gap: 30px;
 `;
-export const LinksSocial = styled.a`
+export const LinksSocial = styled.ul`
   gap: 50px;
 
   svg {

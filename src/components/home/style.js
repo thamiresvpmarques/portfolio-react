@@ -61,6 +61,7 @@ export const Informations = styled.div`
     h3{
       font-size: 25px;
       text-align: center;
+      min-width: 80%;
     }
   }
 `;
