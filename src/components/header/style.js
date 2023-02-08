@@ -11,7 +11,7 @@ export const Header = styled.header`
   top: 0;
   z-index: 999;
   width: 100%;
-  
+ 
   nav ul {
     display: flex;
   }
@@ -149,6 +149,7 @@ export const NavMenu = styled.a`
   padding: 7px;
   text-align: center;
   font-size: 17px;
+  
 
   :hover {
     margin: 10px;
