@@ -18,9 +18,7 @@ export const Home = () => {
           <a href="https://www.linkedin.com/in/thamires-marques-1130b2248/">
             <AiFillLinkedin />
           </a>
-          <a href="https://wa.me/+5521967783367">
-            <AiOutlineWhatsApp />
-          </a>
+          
           <a href="https://github.com/thamiresvpmarques">
             <AiFillGithub />
           </a>
