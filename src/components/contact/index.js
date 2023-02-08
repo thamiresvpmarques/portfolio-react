@@ -1,5 +1,6 @@
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import {AiOutlineMail} from "react-icons/ai";
 
 import * as Styled from "./style";
 
@@ -13,6 +14,10 @@ export const Contact = () => {
             <AiFillLinkedin />
           </a>
           
+          <a href="mailto:thamiresvieiramarques@gmail.com">
+             <AiOutlineMail/>
+          </a>
+
           <a href="https://github.com/thamiresvpmarques">
             <AiFillGithub />
           </a>

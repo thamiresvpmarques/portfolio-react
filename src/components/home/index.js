@@ -1,7 +1,7 @@
 import imageThamires from "../../images/photo-perfil.jpeg";
-import { AiOutlineWhatsApp } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import {AiOutlineMail} from "react-icons/ai";
 
 import * as Styled from "./style";
 
@@ -18,7 +18,11 @@ export const Home = () => {
           <a href="https://www.linkedin.com/in/thamires-marques-1130b2248/">
             <AiFillLinkedin />
           </a>
-          
+
+          <a href="mailto:thamiresvieiramarques@gmail.com">
+             <AiOutlineMail/>
+          </a>
+
           <a href="https://github.com/thamiresvpmarques">
             <AiFillGithub />
           </a>
