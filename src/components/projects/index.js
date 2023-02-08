@@ -50,7 +50,7 @@ export const Projects = () => {
           </div>
         </a>
 
-        <a target={"_blank"} href="https://github.com" rel="noreferrer">
+        <a target={"_blank"} href="https://github.com/thamiresvpmarques/quest-js-api" rel="noreferrer">
           <img src={GitHubApi} alt="GitHub API" />
           <h3>Search User - GitHub</h3>
           <div>
