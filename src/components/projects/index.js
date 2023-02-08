@@ -14,6 +14,7 @@ export const Projects = () => {
         <a
           target={"_blank"}
           href="https://github.com/thamiresvpmarques/pokemon-cards-react"
+          rel="noreferrer"
         >
           <img src={Pokedex} alt="Pokédex" />
           <h3>Pokédex</h3>
@@ -28,6 +29,7 @@ export const Projects = () => {
         <a
           target={"_blank"}
           href="https://github.com/thamiresvpmarques/spartacus-upgrade"
+          rel="noreferrer"
         >
           <img src={Spartacus} alt="Spartacus" />
           <h3>Spartacus</h3>
@@ -39,6 +41,7 @@ export const Projects = () => {
         <a
           target={"_blank"}
           href="https://github.com/thamiresvpmarques/landing-page-com-grid"
+          rel="noreferrer"
         >
           <img src={LandingPage} alt="Landing Page" />
           <h3>Landing Page</h3>
@@ -47,7 +50,7 @@ export const Projects = () => {
           </div>
         </a>
 
-        <a target={"_blank"} href="https://github.com">
+        <a target={"_blank"} href="https://github.com" rel="noreferrer">
           <img src={GitHubApi} alt="GitHub API" />
           <h3>Search User - GitHub</h3>
           <div>

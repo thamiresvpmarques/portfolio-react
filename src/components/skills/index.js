@@ -8,28 +8,28 @@ export const Abilities = () => {
       <Styled.Container>
         <Styled.Skill>
           <Styled.Icon>
-            <i className="devicon devicon-html5-plain-wordmark"></i>
+            <i className="devicon devicon-html5-plain-wordmark"/>
           </Styled.Icon>
           <span>HTML</span>
         </Styled.Skill>
 
         <Styled.Skill>
           <Styled.Icon>
-            <i className="devicon devicon-css3-plain-wordmark"></i>
+            <i className="devicon devicon-css3-plain-wordmark"/>
           </Styled.Icon>
           <span>CSS</span>
         </Styled.Skill>
 
         <Styled.Skill>
           <Styled.Icon>
-            <i className="devicon devicon-github-original"></i>
+            <i className="devicon devicon-github-original"/>
           </Styled.Icon>
           <span>GITHUB</span>
         </Styled.Skill>
 
         <Styled.Skill>
           <Styled.Icon>
-            <i className="devicon devicon-git-plain"></i>
+            <i className="devicon devicon-git-plain"/>
           </Styled.Icon>
           <span>GIT</span>
         </Styled.Skill>

@@ -34,9 +34,9 @@ export const Skill = styled.div`
   align-items: center;
   flex-direction: column;
 `;
-export const Icon = styled.i`
+export const Icon =styled.div`
   font-size: 60px;
-`;
+`
 export const Title = styled.h2`
   font-size: 30px;
 `;
