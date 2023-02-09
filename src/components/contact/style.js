@@ -24,6 +24,6 @@ export const LinksSocial = styled.ul`
   }
   svg:hover {
     color: ${({ theme }) => theme.darkColor};
-    font-size: 80px;
+    
   }
 `;

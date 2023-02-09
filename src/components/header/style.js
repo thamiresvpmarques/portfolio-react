@@ -152,7 +152,6 @@ export const NavMenu = styled.a`
   
 
   :hover {
-    margin: 10px;
     color: ${({ theme }) => theme.brightColour};
   }
 `;
