@@ -54,6 +54,13 @@ export const Abilities = () => {
           </Styled.Icon>
           <span>TYPESCRIPT</span>
         </Styled.Skill>
+
+        <Styled.Skill>
+          <Styled.Icon>
+            <i className="devicon-nodejs-plain"></i>
+          </Styled.Icon>
+          <span>Node.Js</span>
+        </Styled.Skill>
       </Styled.Container>
     </Styled.Section>
   );
